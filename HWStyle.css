@@ -1,0 +1,255 @@
+body
+{
+    font-family:serif;
+    font-size: 1.25em;
+    background-color:#202020;
+    color:grey;
+    width:100%;
+    display:fixed;
+}				/* body's default */
+
+
+span
+{
+    color:silver;
+    font-size:1.5em;
+    padding:0.5em;
+}				/*span style for img*/
+
+p
+{
+    font-size:70%;
+    color:silver;
+}				/*style for p in context*/
+
+.context
+{
+    position:relative;
+    top:0.01em;
+    float:left;
+    width:32.5%;
+
+}				/*context class in info area*/
+
+.context img
+{
+    vertical-align:middle;
+}				/*img align for context*/
+
+.location
+{
+    margin-left:6%;
+}				/* remembering percentage of margin for all id's */
+
+.intro
+{
+    position:relative;
+    top:1.5em;
+    width:19%;
+    background-color:#515050;
+    height:22em;
+    border:0.1em solid grey;
+    float:left;
+    margin-right:1%;
+}				/*intro area of content*/
+
+.introHead
+{
+    width:90%;    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color:silver;
+    border-bottom:0.01em solid grey;
+    margin-left:5%;
+}				/*head of intro area*/
+
+.introBody
+{
+    width:90%;
+    color:silver;
+    margin-left:5%;
+    padding-top:1em;
+    text-align:justify;
+}				/*body of intro area*/
+
+.introBody img
+{
+   padding:0.3em;
+   border:0.01em solid black;
+   width:93%;
+   height:7em;
+}				/*img style for body of intro area*/
+
+.introBody a:link
+{
+    color:#dfdfdf;
+    text-decoration:none;
+    float:right;
+    font-size:80%;
+    padding-top:0.5em;
+}				/*anchor styles for body of intro area*/
+
+.introBody a:visited
+{
+    color:grey;
+}
+
+.introBody a:hover 
+{
+    text-decoration:underline;
+    color:black;
+}
+
+.introBody a:active 
+{
+    color:purple;
+}
+
+.navBar
+{
+   position:relative;
+   top:1.5em;
+   background-color:#515050;
+   margin-left:6%;
+   width:88.7%;
+   border-radius: 0.2em;
+   height:2em;
+
+}				/*nav bar style for its location*/
+
+.navBar ul li
+{
+   position:relative;  
+   top:0.42em;
+   left:-2em;
+   display:inline;
+   font-family:Times New Roman;
+   padding:1em;
+}				/* style for ul in navbar */
+
+.navBar li a
+{
+    text-transform:uppercase;
+    font-size:0.6em;
+    text-decoration:none;
+    font-weight:bold;
+}				/* anchor style in navbar */
+
+.navBar li a:link
+{
+    color:white;
+}
+
+.navBar li a:visited
+{
+    color:grey;
+}
+
+.navBar li a:hover 
+{
+    text-decoration:underline;
+    color:black;
+}
+
+.navBar li a:active 
+{
+    color:purple;
+}
+
+#searchBox
+{
+    position:relative;
+    float:right;
+    border-radius:0.5em;
+    background-color: #202020;
+    width:25%;
+    height:1.5em;
+    top:-0.1em;
+    left:1em;
+}				/* style for search box in nav bar*/
+
+#searchBox input[type=text]
+{
+    position:relative;
+    float:left;
+    background-color: #202020;
+    color:white;
+    width:75%;
+    height:1.5em;
+    border:0;
+    top:0.2em;
+    left:1em;
+}				/*input text style in search box*/
+
+#searchBox input[type=submit]
+{
+   position:relative;
+   float:right;
+   width:2em;
+   height:2em;
+   background:url("searchIcon.png");
+   border:0;
+   right:1em;
+   bottom:0.1em;
+}				/*input submit style in search box*/
+
+#banner
+{  
+   display: inline-block;
+   color:#cccccc;
+   margin-left:6%;
+   width:88%;
+   font-size:1.5em;
+   height:5em;
+   font-weight:lighter;
+}				/*style for baner*/
+
+#banner img
+{
+  position:relative;
+  top:-4.8em;
+  float:right;
+  width:5em;
+  height:4em;
+}				/*img style for image in banner*/
+
+#banner p
+{  
+   position:relative;
+   top:-2em;
+   color:white;
+   font-size:63%;
+}				/*parag style for p in banner*/
+
+
+#content
+{
+    margin-left:6%;
+    width:88%;
+    height:27em;
+    position:relative;
+    top:1.5em;
+}				/*content style for its location*/
+
+#contentEnd
+{
+    background-color:white;
+    width:100%;
+}				/* an area after content */
+
+#infoArea
+{
+   width:95%;
+   position:relative;
+   top:3em;
+   margin-left:6%;
+   height:12em;
+}				/*information area in content end*/
+	
+#footer
+{ 
+    width:100%;
+    font-family:serif;
+    font-size: 1em;
+}				/* footer style */
